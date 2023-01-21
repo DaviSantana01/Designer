@@ -51,6 +51,7 @@
 .banner div article{
     width: 50%;
     position: relative;
+    margin-top: 2%;
 }
 
 .banner div hr{
@@ -58,6 +59,7 @@
     background-color: orange;
     padding: 0.7%;
     border: none;
+    height: 80vh;
 }
 
 .banner div article:nth-child(3){
