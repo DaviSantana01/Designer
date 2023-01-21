@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Roboto&display=swap');
+
+
+:root{
+    ---font-principal:'Roboto', sans-serif;
+}
+
 .pagina{
     max-width: 900px;
     margin: 0 auto;
@@ -14,6 +21,7 @@
 
 .cabecalho div{
     width: 50%;
+
 }
 
 .cabecalho div img{
@@ -37,6 +45,8 @@
     width: 100%;
     margin-top: 3%;
     text-align: end;
+    font-family: var(---font-principal);
+
 }
 
 .banner div article{
