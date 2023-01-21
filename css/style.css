@@ -44,11 +44,15 @@
     display: flex;
     width: 100%;
     margin-top: 3%;
-    text-align: end;
     font-family: var(---font-principal);
-
+    padding: 5%;
+    font-weight: 400;
 }
 
 .banner div article{
     width: 50%;
+}
+
+.banner div article h2{
+    font-size: 3rem;
 }
