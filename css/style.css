@@ -51,8 +51,11 @@
 
 .banner div article{
     width: 50%;
+    position: relative;
 }
 
 .banner div article h2{
     font-size: 3rem;
+    position: absolute;
+    right: 0;
 }
