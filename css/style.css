@@ -6,7 +6,7 @@
 }
 
 .pagina{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     
 }
@@ -56,7 +56,7 @@
 
 .banner div hr{
     margin: 0 3% 0 3% ;
-    background-color: orange;
+    background-color: rgb(232, 184, 70);
     padding: 0.7%;
     border: none;
     height: 80vh;
@@ -76,4 +76,24 @@
     text-align: start;
     width: 50%;
     line-height: 30px;
+}
+
+.banner div article button{
+    background-color: rgb(232, 184, 70);
+    transition: ease-in-out all 1s;
+    font-size: 1.2rem;
+    padding: 6% 25% 6% 25%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    font-family: var(---font-principal);
+    margin-top: 5%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.banner div article button:hover{
+    background-color: rgb(255, 201, 74);
+    color: rgb(124, 124, 124);
 }
