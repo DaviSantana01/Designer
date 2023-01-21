@@ -45,7 +45,6 @@
     width: 100%;
     margin-top: 3%;
     font-family: var(---font-principal);
-    padding: 5%;
     font-weight: 400;
 }
 
@@ -54,8 +53,25 @@
     position: relative;
 }
 
+.banner div hr{
+    margin: 0 3% 0 3% ;
+    background-color: orange;
+    padding: 0.7%;
+    border: none;
+}
+
+.banner div article:nth-child(3){
+    width: 50% !important;
+}
+
 .banner div article h2{
     font-size: 3rem;
     position: absolute;
     right: 0;
+}
+
+.banner div article p{
+    text-align: start;
+    width: 50%;
+    line-height: 30px;
 }
