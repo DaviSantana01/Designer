@@ -1,0 +1,44 @@
+.pagina{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+/*### CABEÇALHO ###*/
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.cabecalho div{
+    width: 50%;
+}
+
+.cabecalho div img{
+    width: 45%;
+}
+
+.cabecalho div i{
+    font-size: 3rem;
+    cursor: pointer;
+    margin-top: 3.9%;
+}
+
+.cabecalho div:nth-child(2){
+    text-align: end;
+}
+
+/*### BANNER ###*/
+
+.banner div{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    text-align: end;
+}
+
+.banner div article{
+    width: 50%;
+}
