@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Quicksand:wght@300&family=Roboto&display=swap');
 
 
 :root{
     ---font-principal:'Roboto', sans-serif;
+    ---font-secundaria:'Quicksand', sans-serif;
 }
 
 .pagina{
@@ -41,14 +42,13 @@
 /*### BANNER ###*/
 
 .banner{
-    background: url(../img/background.jpg) no-repeat fixed center;
-    background-size: 100%;
+    background: url(../img/background.jpg)  fixed center;
+    background-size: cover;
 }
 
 .banner div{
     display: flex;
     width: 100%;
-    font-family: var(---font-principal);
     font-weight: 400;
     color: #fff;
 }
@@ -75,6 +75,7 @@
     font-size: 3rem;
     position: absolute;
     right: 0;
+    font-family: var(---font-principal);
 }
 
 .banner div article p{
@@ -82,6 +83,7 @@
     width: 50%;
     line-height: 30px;
     font-size: 1.1rem;
+    font-family: var(---font-secundaria);
 }
 
 .banner div article button{
@@ -102,4 +104,39 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 .banner div article button:hover{
     background-color: rgb(255, 201, 74);
     color: rgb(124, 124, 124);
+}
+
+/*### OPÇÕES ###*/
+.option{
+    background-color: black;
+}
+
+.option div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    text-align: center;
+    padding: 0 3% 0 3%;
+}
+
+.option div article{
+    background-color: #fff;
+}
+
+.option div article i{
+    font-size: 4rem;
+    margin: 5%;
+    color: rgb(232, 184, 70);
+}
+
+.option div article h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(---font-principal);
+    margin-bottom: 5%;
+}
+
+.option div article p{
+    line-height: 20px;
+    font-family: var(---font-secundaria);
 }
