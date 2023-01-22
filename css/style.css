@@ -44,6 +44,7 @@
 .banner{
     background: url(../img/background.jpg)  fixed center;
     background-size: cover;
+    height: 110vh;
 }
 
 .banner div{
@@ -108,7 +109,8 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 /*### OPÇÕES ###*/
 .option{
-    background-color: black;
+    background-color: rgb(116, 116, 116);
+    padding-bottom: 5%;
 }
 
 .option div{
@@ -121,11 +123,16 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 .option div article{
     background-color: #fff;
+    margin-top: -8%;
+    padding: 5% 5% 10% 5%;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.45); 
+box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.45);
 }
 
 .option div article i{
-    font-size: 4rem;
-    margin: 5%;
+    font-size: 7rem;
+    margin-top: -15%;
+    margin-bottom: 7%;
     color: rgb(232, 184, 70);
 }
 
@@ -133,10 +140,11 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     font-size: 1.2rem;
     font-weight: bold;
     font-family: var(---font-principal);
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .option div article p{
-    line-height: 20px;
+    line-height: 25px;
     font-family: var(---font-secundaria);
+    font-size: 1.2rem;
 }
